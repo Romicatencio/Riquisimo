@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="shortcut icon" href="../imágenes/logo riquisimo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Handlee&family=Hubballi&family=Oleo+Script+Swash+Caps&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Cookie&family=Handlee&family=Hubballi&family=Oleo+Script+Swash+Caps&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+
+        <img src="../imágenes/logo riquisimo.jpg" alt="logo">
+    
+    
+    <nav class="menu">
+     <ul>
+         <li> <a href="../index.html">Nosotros</a></li>
+         <li> <a href="./Productos.html">Productos </a></li>
+         <li> <a href="./Servicios.html"> Servicios </a></li>
+         <li> <a href="./Especiales.html">Especiales</a> </li>
+         <li> <a href="./Contactanos.html">Contactanos</a></li>
+     </ul>
+    </nav>
+ 
+    </header>
+
+    <div class="completar">
+
+    <section>
+        <div class="pedido-formulario">
+            <p>
+                <strong>Por favor completa el formulario</strong> <br>
+                Tu experiencia es muy importante para nosotros.<br>
+                Contanos como fue la tuya.
+                Si necesitas adquirir un presupuesto, también podés hacerlo por este medio
+            </p>
+        </div>
+    </section>
+    
+       
+    <form class="formulario" action="enviar php" method="get" enctype="text/plain">
+
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="adjunto">Adjuntar archivo</label>
+            <input type="file" id="adjunto">
+        </div>
+
+        <div>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="5" placeholder="Comentanos tu experiencia o pedido de presupuesto"></textarea>
+        </div>
+
+        <div>
+
+            <label for="Cómo nos conociste"> Cómo nos conociste?</label> 
+            <input type="radio" name="conociste" value="Facebook"> Facebook
+            <input type="radio" name="conociste" value="Instagram"> Instagram
+            <input type="radio" name="conociste" value="Otros"> Otros
+        </div>
+
+        <div>
+            <p>Me gustaría?</p>
+            
+            <label for="recibir email">Recibir notificaciones por correo</label>
+            <input type="checkbox" id="recibir email">
+
+            <label for="recibir tel"> Recibir notificaciones por whatsapp</label>
+            <input type="checkbox" id="recibir tel">
+
+        </div>
+
+        <div>
+            <p> En qué podemos ayudarte?</p>
+        <select name="tematica" id="tematica">
+                <option value="1"> Desayuno</option>
+                <option value="2"> Merienda compartida</option>
+                <option value="3">Evento</option>
+                <option value="4">Vianda saludable</option>
+                <option value="5">Otros</option>
+
+
+        </select>
+        </div>
+        
+        
+        <div class="envio">
+            <input type="submit" value="Enviar ahora">
+            <input type="reset" value="Borrar todo">
+        </div>
+  
+   </form>
+  
+      </div>
+
+<div class="comunicate">
+    
+      <div>
+           <img src="../imágenes/logo correo.jpg" alt="correo">
+            <p>riquisimo@gmail.com</p>
+      </div>
+    
+    <div class="what">
+         <img src="../imágenes/logo whatsapp.png" alt="cel">
+    </div>
+
+    </div>
+
+    <footer>
+
+        <h3>Riquisimo-Copyright 2022 </h3>
+        <h4>Sitio Web diseñado por Romina Atencio</h4>
+    
+    </footer>
+    
+</body>
+</html>
