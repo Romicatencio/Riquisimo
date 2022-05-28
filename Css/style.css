@@ -201,7 +201,7 @@ footer{
     /* secciones de los productos */
     .productos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr  ;
         grid-template-rows: 1 fr 1 fr 1fr ;
         gap: 2px;
         padding: 10px;
@@ -294,7 +294,7 @@ footer{
         height: 200px;
         border-radius: 50px;
         margin:10px;
-        margin-left: 80px;
+        margin-left: 60px;
     
     }
     /* texto explicativo de los servicios */
@@ -303,6 +303,7 @@ footer{
        font: 40px;
        text-align: center;
        font-weight: 40;
+      
    }
       
    /* organizacion de las imagenes */
