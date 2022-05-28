@@ -758,21 +758,16 @@ footer{
               grid-template-columns: 1fr 1fr 1fr 1fr    ;
               grid-template-rows: 1fr 1fr   ;
               gap: 10px;
-              padding: 10px;
-              margin-left: 20px;
+              
           }
-          .golosinero{
-              position: relative;
-              width:400px ;
-          }
-
+       
           .madre{ 
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr   ;
             grid-template-rows: 1fr 1fr  ;
             gap: 10px;
-            padding: 10px;
-            margin-left: 45px;
+            
+       
 
           }
 
@@ -781,8 +776,7 @@ footer{
             grid-template-columns: 1fr 1fr 1fr 1fr    ;
             grid-template-rows: 1fr 1fr  ;
             gap: 15px;
-            padding: 10px;
-            margin-left: 20px;
+           
           }
 
           .viandas{
@@ -790,8 +784,7 @@ footer{
             grid-template-columns: 1fr 1fr 1fr 1fr   ;
             grid-template-rows: 1fr 1fr  ;
             gap: 10px;
-            padding: 10px;
-            margin-left: 45px;
+            
           }
          
           /* formato de las imagenes */
@@ -799,6 +792,7 @@ footer{
             width: 250px;
             height: 300px; 
             border: solid 5px black;
+            
            
         }
 
@@ -812,12 +806,16 @@ footer{
             width: 250px;
             height: 250px; 
             border: solid 5px black;
+            position: relative;
+            left: 30px;
         }
 
         .viandas img{
             width: 250px;
             height: 250px; 
             border: solid 5px black;
+            position: relative;
+            left: 30px;
         }
 
          /* efecto: transform: scale a
