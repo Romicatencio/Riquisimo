@@ -163,7 +163,9 @@ section .titulo-novedades {
     justify-content:center;
     justify-items: center;
     align-items: center;
+    
 }
+
 
 /* redes sociales */
 
@@ -448,7 +450,7 @@ footer{
 }
 
 .comunicate  p {
-    background-color:aquamarine;
+    
     color:black;
     font-size:15px;
     width: 130px;
@@ -604,6 +606,7 @@ ul{
     margin: 20px auto;
     font-size: 20px;
     color:black;
+    
     
 }
 
@@ -916,7 +919,7 @@ footer{
 }
 /* casilla de correo */
 .comunicate  p {
-    background-color:aquamarine;
+    
     color:black;
     font-size:25px;
     width: 200px;
