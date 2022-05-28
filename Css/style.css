@@ -594,7 +594,7 @@ ul{
 .novedades p {
     display: flex;
     justify-content: center;
-    margin-left: -30px;
+    margin: 20px auto;
     font-size: 20px;
     color:pink;
     background-color: black;
