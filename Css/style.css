@@ -143,11 +143,12 @@ ul li a:hover{
     height: 170px;
    
 }
- .container .row{
+/*  .container .row{
     position: relative;
     left: 30px;
     gap: 10px;
-} 
+}  */
+
   /* titulo, presentacion de novedades */  
 section .titulo-novedades {
     font-size: 20px;
@@ -183,8 +184,10 @@ section .titulo-novedades {
 
 
 } */ 
+
 /* texto de viandas-pascuas-fiestas */
-.novedades p {
+
+.novedades p { 
     margin: 5px;
     font-size: 15px;
     color:black;
