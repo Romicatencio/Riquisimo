@@ -773,6 +773,7 @@ footer{
         font-weight: 30;
         color:crimson;}
 
+/* posicion de las imagenes de servicios */
         .card img.vianda{
             position: relative;
             left: 30px;
@@ -824,11 +825,12 @@ footer{
         height: 200px;
       
    
-   }  */ */
+   }  */ 
 
 /* Especiales */
 /* explicacion de las propuestas
 "especiales" */
+
 .especiales p {
     font-size: 30px;
     color:brown;
@@ -836,6 +838,7 @@ footer{
     font-weight: 400;
     padding: 20px;
     margin: 30px;
+   
     
 }
       
