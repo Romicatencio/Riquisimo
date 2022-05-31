@@ -11,10 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Handlee&family=Hubballi&family=Oleo+Script+Swash+Caps&family=Satisfy&display=swap" rel="stylesheet">
-   >
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <body>
     
-   <header class="header">
+   <!-- <header class="header">
 
            <img src="../imágenes/logo riquisimo.jpg" alt="logo">
        
@@ -27,39 +29,77 @@
             <li> <a href="./Especiales.html">Especiales</a> </li>
             <li> <a href="./Contactanos.html">Contactanos</a></li>
         </ul>
-       </nav>
+       </nav> -->
 
-   </header>
+  <!--  </header> -->
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img class="img-logo" src="../imágenes/logo riquisimo.jpg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Html/Productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Html/Servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Html/Especiales.html">Especiales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Html/Contactanos.html">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <div class="container mt-5">
+
    
-   <div class="servicios">
-         <div class="servicios2">
-             <img src="../imágenes/servicios/desayuno.jpg" alt="desayuno">
-             <p >Contamos con un desayuno standar con variaciones de nuestros
-                 productos. Así también ofrecemos la posibilidad de adaptarnos a gustos 
-                 preferencias y alcance de cada <br>
-                 Personificamos cada desayuno para que el homenajeado se sienta identificado
-                 y disfrute de un desayuno a su medida.
-             </p>
-         </div>
-
-         <div>
-             <img src="../imágenes/servicios/mesa dulce.jpg" alt="mesa">
-              <p >
-                  Ofrecemos el servicio de mesa dulce para diferentes eventos.
-                  Nos adaptamos a los gustos de cada cliente, brindandole una orientación para que cada comensal pueda degustar de cada elección y alcance de acuerdo a la totalidad de los comensales.
-                  La orientación también se brinda en cuanto a las cantidades, opciones según la temporada y caracteristicas del evento.
-              </p>
-         </div>
-
-         <div>
-             <img src="../imágenes/servicios/vianda4.jpg" alt="vianda">
-             <p>
-                 Pensando en mantener mejores hábitos, riquisimo inplemento la opción de preparar viandas dulces saludables. <stron>"Porque se puede comer sano y a la vez rico"</stron>
-                 Son preparaciones sin harina de trigo y sin azúcar, ofreciendo asi variedad de productos según los estilos de vida de cada cliente
-             </p>
-         </div>
-
+    <div class="card-group ">
+        <div class="card p-1" >
+          <img src="../imágenes/servicios/desayuno.jpg" class="desayuno" alt="desayuno">
+          <div class="card-body">
+            <h5 class="card-title">Desayuno</h5>
+            <p class="card-text p-1"> Contamos con un desayuno standar con variaciones de nuestros
+                productos. Así también ofrecemos la posibilidad de adaptarnos a gustos 
+                preferencias y alcance de cada <br>
+                Personificamos cada desayuno para que el homenajeado se sienta identificado
+                y disfrute de un desayuno a su medida.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card p-1">
+          <img src="../imágenes/servicios/mesa dulce.jpg" class="mesa" alt="mesa">
+          <div class="card-body">
+            <h5 class="card-title p-1"> Mesa Dulce</h5>
+            <p class="card-text"> Ofrecemos el servicio de mesa dulce para diferentes eventos.
+                Nos adaptamos a los gustos de cada cliente, brindandole una orientación para que cada comensal pueda degustar de cada elección y alcance de acuerdo a la totalidad de los comensales.
+                La orientación también se brinda en cuanto a las cantidades, opciones según la temporada y caracteristicas del evento.</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+        <div class="card p-1">
+          <img src="../imágenes/servicios/vianda 1.jpg" class="vianda" alt="vianda">
+          <div class="card-body">
+            <h5 class="card-title p-1">Vianda Saludable</h5>
+            <p class="card-text">Pensando en mantener mejores hábitos, riquisimo inplemento la opción de preparar viandas dulces saludables. <stron>"Porque se puede comer sano y a la vez rico"</stron>
+                Son preparaciones sin harina de trigo y sin azúcar, ofreciendo asi variedad de productos según los estilos de vida de cada cliente</p>
+            <p class="card-text"><small class="text-muted"></small></p>
+          </div>
+        </div>
+      </div>
    </div>
+   
+
+
 
    <div class="titulo-redes">
     
@@ -83,6 +123,7 @@
     <h4>Sitio Web diseñado por Romina Atencio</h4>
 
 </footer>
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
