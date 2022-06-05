@@ -105,13 +105,14 @@ ul li a:hover{
 }
 
 /* video de productos */
- .video {
+ .nosotros div video {
     padding-top: 15px;
     width: 100%;
     height: auto;
     max-width: 400px;
     margin: 20px;
   
+
 
 }
 /* explicacion del emprendimiento */
@@ -342,6 +343,7 @@ footer{
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr;
         padding: 20px;}
+    
 
     .imagenes-especiales div img{
         display: flex;
@@ -455,7 +457,7 @@ footer{
 .pedido-formulario p {
     font-size: 15px;
     color:black;
-    background-color:lightpink;
+    background-image: url(../imágenes/fondo.jpg);
     border-radius: 30px;
     width: 250px;
     height: 200px;
@@ -594,12 +596,12 @@ ul{
     grid-template-rows: 1fr;
 }
 /* video de productos */
- .nosotros div .video {
+ .nosotros div video {
 
     width: 100%;
     min-width: 600px;
     height: 400px;
-    padding: 20px;
+    margin-top: -20px;
 
 }
 /* explicacion del emprendimiento */
@@ -610,11 +612,12 @@ ul{
     color: brown;
     font-weight: 400;
     font-size: 20px;
-    padding-top: 20px;
-    margin-top: 10px;
+    padding-top: 20px; 
+    margin-top: 10px; 
     width: 100%;
     max-width: 800px;
     margin: auto;
+    position: relative;
 
 
 }
@@ -724,22 +727,26 @@ footer{
     .productos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
         gap: 5px;
         padding: 20px;
         background-color: antiquewhite;
+        margin-left: 50px;}
     
+
       
-    }
+    
     /* imagenes de los productos */
-    .productos div{
-        display: flex;
-        flex-direction: column;
+    .productos{
+       
+         display: flex;
+        flex-direction: row; 
     }
 
+   
+
     .productos div img{
-        display: flex;
-        flex-direction: row; 
+         
         width: 200px;
         height: 200px;
         border-radius: 30px;
@@ -777,7 +784,7 @@ footer{
         color:crimson;}
 
 /* posicion de las imagenes de servicios */
-        .card img.vianda{
+         .card img.vianda{
             position: relative;
             left: 30px;
         }
@@ -787,48 +794,13 @@ footer{
             left: 30px;
         }
 
-        .card img.desayuno{
+         .card img.desayuno{
             position: relative;
             left: 30px;
         }
-
-        /* .servicios{
-            display:grid;
-            grid-template-columns: 1fr  ;
-            grid-template-rows: 1fr 1fr 1fr;
-            padding: 10px; 
-            background: linear-gradient(lightpink, burlywood);
-            background: linear-gradient(to bottom,burlywood,lightpink, burlywood);
-        }
-        /* imagenes de los servicios:viandas
-        saludables, mesa dulce desayuno */
-     /*    .servicios div{
-            display: grid;
-            
-        }
-        .servicios div img{
         
-            width: 350px;
-            height: 350px;
-            border-radius: 40px;
-            position: relative;
-            right: 200px;
         
-            
-            
-        }
-        /* explicacion de los servicios */
-    /*     .servicios div p{
-        font-size: 30px;
-        color:brown;
-        position: relative;
-        bottom:300px;
-        left: 200px;
-        width: 700px;
-        height: 200px;
-      
-   
-   }  */ 
+    
 
 /* Especiales */
 /* explicacion de las propuestas
@@ -980,8 +952,8 @@ footer{
 
 .pedido-formulario p {
     font-size: 25px;
-    color:white;
-    background-color:lightpink;
+    color:brown;
+    background-image: url(../imágenes/fondo.jpg);
     border-radius: 30px;
     width: 500px;
     height: 400px;
@@ -1006,6 +978,22 @@ footer{
     margin-top: 50px;
 }
 
+
+.nombre {
+    margin-left: 10px;
+}
+.nombre :focus{
+    transform: translate(50px);
+    transition: all 1s;
+    width: 200px;
+    height: 50px;
+    background-color:darkgray;
+}
+.email{
+    margin-left: 20px;
+    padding: 5px;
+   
+}
 /* organizaion de logos */
 
 .comunicate {
