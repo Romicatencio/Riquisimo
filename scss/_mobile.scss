@@ -1,0 +1,408 @@
+/* logo y menu de navegacion */
+.img-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-item{
+    font-size: 15px;
+}
+/* barra de navegacion */
+.container-fluid{
+    background-color: white;
+}
+
+ul{ 
+    li{display:flex; 
+        align-items: center;
+        justify-content: center;
+     
+
+     a{
+        background-color: white;
+        color:deeppink;
+        padding:15px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 10px;
+        margin: 0 20px;
+    
+
+        &:hover{background-color:lightpink;
+        color:black;
+        padding:15px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 15px;
+        margin: 0 20px;}
+    }}
+}
+
+.titulo-2{
+    h1{
+        font-size: 20px;
+    color: brown;
+    text-align: center;
+    }
+
+    h2{
+        font-size: 15px;
+    color: brown;
+    text-align: center;
+    }
+}
+
+/* video y presentacion*/
+
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    div{
+        video{
+            padding-top: 15px;
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            
+        }
+    }
+}
+
+/* explicacion del emprendimiento */
+
+.presentacion{
+    .p1{
+        padding: 5px;
+        margin-left: 5px; 
+        color: brown;
+        font-weight: 400;
+    }
+
+    .p2{
+        display: none;
+    }
+}
+/* seccion de novedades */ 
+/* titulo de las imagenes */
+
+.card-text{
+    
+    font-size: 15px;
+    color: black;
+}
+.card-body{
+    background-color:lightpink;
+    text-align: center;
+}
+
+
+.card img{
+    height: 170px;
+   
+}
+
+/* titulo, presentacion de novedades */  
+section .titulo-novedades {
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    margin:15px;
+    background-color:burlywood;}
+
+    /* texto de viandas-pascuas-fiestas */
+
+.novedades p { 
+    margin: 5px;
+    font-size: 15px;
+    color:black;
+    margin-left: 20px;
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+/* redes sociales */
+
+
+.titulo-redes p {
+    font-size: 20px;
+    color:brown;
+    display: inline-block;
+    margin:10px;
+    margin-top: 20px;
+    
+}
+
+/* logo de instagra y facebook */
+.redes img {
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    display:block;
+    
+    
+}
+
+/* pie de pagina */
+footer{
+    background-color: lightcoral;
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    }
+
+/* productos que se ofrecen */
+    /* secciones de los productos */
+
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1 fr 1 fr 1fr ;
+        gap: 2px;
+        padding: 10px;
+
+        div img{
+                display: flex;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        border-radius: 30px;
+        margin: 10px;
+        margin-left: 30px;
+            }
+        /* nombre de los productos */
+        div p{
+                font-size:20px ;
+                color: white;
+                background-color: burlywood;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                margin: 10px;
+                border-radius: 30px;
+        }
+        }
+    
+    /* servicios */
+    /* imagenes de los servicios */
+    /* tamaño de las imagenes */
+   .card-img-top{
+       width: 100p;
+       height: auto;
+   }
+   /* contenedor de las imagenes */
+   .card-group .card{
+       border: solid black 3px;
+   }
+   
+   
+   /* titulo de servicios */
+   .card-title{
+       font-size: 25px;
+       text-align: center;
+       font-weight: 30;
+       color:crimson;
+   
+   }
+
+   /* Especiales */
+/* explicacion de las propuestas
+"especiales" */
+.especiales p {
+    font-size: 20px;
+    color:brown;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+/* contenedor de las imagenes*/
+.imagenes-especiales{
+    display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        padding: 20px;
+
+        div{
+            img{
+                display: flex;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+        margin:10px;
+        margin-left: 50px; 
+    
+            }
+        }
+}
+
+/* texto explicativo de los servicios */
+.especiales p{
+    color: brown;
+    font: 40px;
+    text-align: center;
+    font-weight: 40;
+   
+}
+
+/* organizacion de las imagenes */
+.pascuas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr  ;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.madre{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr  ;
+  gap: 10px;
+  padding: 10px;
+  
+
+}
+
+.fiestas{
+  display: grid;
+  grid-template-columns: 1fr 1fr   ;
+  grid-template-rows: 1fr 1fr 1fr  ;
+  gap: 10px;
+  padding: 10px;
+  
+}
+.viandas{
+  display: grid;
+  grid-template-columns: 1fr 1fr   ;
+  grid-template-rows: 1fr 1fr 1fr  ;
+  gap: 10px;
+  padding: 10px;
+  
+}
+/* formato de las imagenes */
+.pascuas img{
+  width: 100px;
+  height: 130px; 
+  border: solid 5px black;
+  margin-left: 30px;
+ 
+}
+
+
+.fiestas img{
+  width: 100px;
+  height: 100px; 
+  border: solid 5px black;
+  margin-left: 30px;
+}
+
+.madre img{
+  width: 100px;
+  height: 100px; 
+  border: solid 5px black;
+  position: relative;
+  left: 30px;
+}
+.viandas img{
+  width: 100px;
+  height: 100px; 
+  border: solid 5px black;
+  position: relative;
+  left: 30px;
+}
+
+/* texto que acompaña las imagenes:
+    dia de la madre, fiestas,viandas y pascuas */
+    .text-pas, .text-fi, .text-ma, .text-vi{
+        display: block;
+        background-color: peachpuff;
+        color: black;
+        font-size: 20px;
+        font-weight: 40;
+        text-align: center;
+    }
+/* formulario */
+/* organización de la pagina */
+.completar{
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+}
+/* texto explicativo del formulario */
+
+.pedido-formulario p {
+    font-size: 15px;
+    color:black;
+    background-image: url(../imágenes/fondo.jpg);
+    border-radius: 30px;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+    
+  
+
+}
+
+/* formulario a completar */
+.formulario{
+    font-size: 15px;
+    color:brown;
+    padding: 30px;
+    margin: 20px;
+    background-color:bisque;
+    border-radius: 30px;
+    
+}
+/* botones de envio y borrar todo */
+.envio{
+    margin-top: 50px;
+}
+
+.comunicate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    div{
+        img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 50px;
+    }
+
+    p{
+        color:black;
+    font-size:15px;
+    width: 130px;
+    height: 25px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    }
+}
+}
+
+.nombre{
+    margin-left: 10px;
+}
+
+.email{
+    margin-left: 15px;
+    padding: 5px;
+   
+}
