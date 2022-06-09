@@ -83,6 +83,7 @@ font-family: 'Satisfy', cursive;}
             min-width: 600px;
             height: 400px;
             margin-top: -20px;
+            margin-left: 15px;
 
         }
     }
@@ -92,8 +93,8 @@ font-family: 'Satisfy', cursive;}
 
 .presentacion{
     .p1{
-        padding: 10px;
-    margin-left: 10px;
+    padding: 10px;
+    margin-left: 10px; 
     color: brown;
     font-weight: 400;
     font-size: 20px;
@@ -186,7 +187,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
-    gap: 5px;
+    gap: 3px;
     padding: 20px;
     background-color: antiquewhite;
     margin-left: 50px;
@@ -195,7 +196,9 @@ footer{
     div img{width: 200px;
             height: 200px;
             border-radius: 30px;
-            margin: 20px;
+            padding-right: 30px;
+            margin-left: 50px;
+        
 
         }
 /* nombre de los productos */
@@ -203,7 +206,7 @@ footer{
         font-size:30px ;
         color: white;
         background-color: burlywood;
-        margin: 20px;
+        /* margin: 20px; */
         border-radius: 30px;
         flex-direction:row;
         justify-content: center; 

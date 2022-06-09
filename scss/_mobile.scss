@@ -12,6 +12,12 @@
     background-color: white;
 }
 
+/* botton-menu hamnurguesa */
+.navbar-toggler-icon {
+    background-color: lightpink;
+    
+}
+
 ul{ 
     li{display:flex; 
         align-items: center;
@@ -65,6 +71,7 @@ ul{
             width: 100%;
             height: auto;
             max-width: 400px;
+            margin-left: 5px;
             
         }
     }
@@ -163,18 +170,20 @@ footer{
     .productos{
         display: grid;
         grid-template-columns: 1fr 1fr  ;
-        grid-template-rows: 1 fr 1 fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
         gap: 2px;
         padding: 10px;
+        /* imagenes de los productos */
 
         div img{
                 display: flex;
-        flex-direction: row;
-        width: 100px;
-        height: 100px;
-        border-radius: 30px;
-        margin: 10px;
-        margin-left: 30px;
+                flex-direction: row;
+                width: 100px;
+                height: 100px;
+                border-radius: 30px;
+                margin: 10px;
+                margin-left: 45px;
+                
             }
         /* nombre de los productos */
         div p{
@@ -193,12 +202,15 @@ footer{
     /* imagenes de los servicios */
     /* tamaño de las imagenes */
    .card-img-top{
-       width: 100p;
+       width: 50px;
        height: auto;
+       
    }
    /* contenedor de las imagenes */
    .card-group .card{
        border: solid black 3px;
+       width: 300px;
+       margin-left: 50px;
    }
    
    
@@ -371,7 +383,15 @@ footer{
 .envio{
     margin-top: 50px;
 }
-
+/* organizacion botones-donde nos conociste */
+.conocer{
+    display:block;
+}
+/* recibir informacion */
+.me-gustaria{
+    margin-top: 10px;
+}
+/* organizacion img de correo y whatsapp */
 .comunicate{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -405,4 +425,14 @@ footer{
     margin-left: 15px;
     padding: 5px;
    
+   
 }
+
+.pass{
+    margin-bottom: 10px;
+}
+
+.comen{
+    margin-top: 10px;
+}
+
