@@ -178,18 +178,17 @@ footer{
         div img{
                 display: flex;
                 flex-direction: row;
-                width: 100px;
-                height: 100px;
+                width: 120px;
+                height: 120px;
                 border-radius: 30px;
-                margin: 10px;
-                margin-left: 45px;
+                margin: 20px;
+            
                 
             }
         /* nombre de los productos */
         div p{
-                font-size:20px ;
+                font-size:25px ;
                 color: white;
-                background-color: burlywood;
                 display: flex;
                 align-content: center;
                 justify-content: center;
@@ -382,6 +381,14 @@ footer{
 /* botones de envio y borrar todo */
 .envio{
     margin-top: 50px;
+
+    .enviar{
+        background-color: lightsalmon;
+    }
+
+    .borrar{
+        background-color: aquamarine;
+    }
 }
 /* organizacion botones-donde nos conociste */
 .conocer{
@@ -392,30 +399,31 @@ footer{
     margin-top: 10px;
 }
 /* organizacion img de correo y whatsapp */
-.comunicate{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+.correo{
+    display: block;
 
-    div{
-        img{
+img{
     width: 80px;
     height: 80px;
     border-radius: 50px;
     margin: 50px;
     }
+}
+    /* logo de whatsapp */
+.what{
+    position:fixed;
+    z-index: 500;
+    top:0px;
+    float: right;
+    
 
-    p{
-        color:black;
-    font-size:15px;
-    width: 130px;
-    height: 25px;
-    margin-left: 40px;
-    margin-bottom: 60px;
-    text-align: center;
+    img{
+        width: 80px;
+        height: auto;
     }
 }
-}
+
+
 
 .nombre{
     margin-left: 10px;

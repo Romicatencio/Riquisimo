@@ -51,13 +51,13 @@ ul li a:hover {
   margin: 0 20px;
 }
 
-.titulo-2 h1 {
+.titulo-2 h1, .titulo-h1 h1, .titulo-h2 h1 {
   font-size: 20px;
   color: brown;
   text-align: center;
 }
 
-.titulo-2 h2 {
+.titulo-2 h2, .titulo-h1 h2, .titulo-h2 h2 {
   font-size: 15px;
   color: brown;
   text-align: center;
@@ -186,17 +186,15 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 30px;
-  margin: 10px;
-  margin-left: 45px;
+  margin: 20px;
 }
 
 .productos div p {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
-  background-color: burlywood;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -402,6 +400,14 @@ footer {
   margin-top: 50px;
 }
 
+.envio .enviar {
+  background-color: lightsalmon;
+}
+
+.envio .borrar {
+  background-color: aquamarine;
+}
+
 /* organizacion botones-donde nos conociste */
 .conocer {
   display: block;
@@ -413,30 +419,28 @@ footer {
 }
 
 /* organizacion img de correo y whatsapp */
-.comunicate {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+.correo {
+  display: block;
 }
 
-.comunicate div img {
+.correo img {
   width: 80px;
   height: 80px;
   border-radius: 50px;
   margin: 50px;
 }
 
-.comunicate div p {
-  color: black;
-  font-size: 15px;
-  width: 130px;
-  height: 25px;
-  margin-left: 40px;
-  margin-bottom: 60px;
-  text-align: center;
+/* logo de whatsapp */
+.what {
+  position: fixed;
+  z-index: 500;
+  top: 0px;
+  float: right;
+}
+
+.what img {
+  width: 80px;
+  height: auto;
 }
 
 .nombre {
@@ -506,18 +510,21 @@ footer {
     width: 100%;
     height: auto;
   }
-  .titulo-2 h1 {
-    font-size: 50px;
-    color: brown;
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  .titulo-2 h2 {
-    font-size: 30px;
-    color: brown;
-    text-align: center;
-  }
+  /* .titulo-2{
+        h1{
+            font-size: 50px;
+            color: brown;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        h2{
+            font-size: 30px;
+            color: brown;
+            text-align: center;
+        }
+    } */
   /* video y presentacion */
   .nosotros {
     display: -ms-grid;
@@ -617,7 +624,7 @@ del texto de cards */
         grid-template-rows: 1fr;
     gap: 3px;
     padding: 20px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     margin-left: 50px;
     /* imagen de los productos */
     /* nombre de los productos */
@@ -626,15 +633,11 @@ del texto de cards */
     width: 200px;
     height: 200px;
     border-radius: 30px;
-    padding-right: 30px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .productos div p {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
-    background-color: burlywood;
-    /* margin: 20px; */
-    border-radius: 30px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -657,17 +660,8 @@ del texto de cards */
     color: crimson;
   }
   /* posicion de las img de servicios */
-  .card img .vianda {
-    position: relative;
-    left: 30px;
-  }
-  .card img .mesa {
-    position: relative;
-    left: 30px;
-  }
-  .card img .desayuno {
-    position: relative;
-    left: 30px;
+  .card img {
+    margin-left: 30px;
   }
   /* Especiales */
   /* explicacion de las propuestas
@@ -825,17 +819,31 @@ del texto de cards */
     color: brown;
     padding: 30px;
     margin: 20px;
-    background-color: bisque;
+    background-color: white;
     border-radius: 30px;
+    border: solid 5px black;
   }
   /* botones de envio y borrar todo */
   .envio {
     margin-top: 50px;
   }
-  .nombre {
-    margin-left: 10px;
+  .envio .enviar {
+    padding: 8px;
+    background-color: lightsalmon;
   }
-  .nombre :focus {
+  .envio .borrar {
+    padding: 8px;
+    background-color: aquamarine;
+  }
+  /* input de correo, nombre y pass */
+  .input-nombre {
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    width: 400px;
+    margin-top: 5px;
+  }
+  .input-nombre :focus {
     -webkit-transform: translate(50px);
             transform: translate(50px);
     -webkit-transition: all 1s;
@@ -844,37 +852,149 @@ del texto de cards */
     height: 50px;
     background-color: darkgray;
   }
-  .email {
-    margin-left: 20px;
-    padding: 5px;
+  .input-nombre .nombre {
+    margin-left: 10px;
+  }
+  /* correo */
+  .input-email {
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    margin-top: 5px;
+  }
+  .input-email .email {
+    margin-left: 22px;
+  }
+  /* password */
+  .input-pass {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 5px;
+    width: 400px;
+    margin-bottom: 20px;
   }
   /* organizacion de logos */
-  .comunicate {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-    /* imagenes de whatsapp y correo */
+  .correo {
+    display: block;
   }
-  .comunicate img {
+  .correo img {
     width: 150px;
     height: 150px;
     border-radius: 50px;
     margin: 50px;
   }
-  .comunicate p {
-    color: black;
-    font-size: 25px;
-    width: 200px;
-    height: 50px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-  }
   /* logo de whatsapp */
   .what {
-    margin-left: -350px;
+    position: fixed;
+    z-index: 500;
+    top: 0px;
+    float: right;
   }
+  .what img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+/* maps */
+/* items de formulario */
+.input-nombre {
+  background-color: bisque;
+}
+
+.input-email {
+  background-color: lightpink;
+}
+
+.input-pass {
+  background-color: bisque;
+}
+
+/*extend  */
+.titulo-2, .titulo-h1, .titulo-h2 {
+  font-size: 50px;
+  color: brown;
+  text-align: center;
+}
+
+.titulo-h1 {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.titulo-h2 {
+  font-size: 30px;
+}
+
+/* mixin */
+.budines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7c2c2;
+}
+
+.tartas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: burlywood;
+}
+
+.tortas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7c2c2;
+}
+
+.galletas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: burlywood;
+}
+
+.alfajores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7c2c2;
 }
 /*# sourceMappingURL=style.css.map */

@@ -65,20 +65,22 @@
        
     <form class="formulario" action="enviar php" method="get" enctype="text/plain">
 
-        <div class="nombre">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+       
+        <div class="input-nombre">
+           <label class="nombre" for="nombre">Nombre:</label>
+            <input type="nombre" id="nombre">
         </div>
 
-        <div class="email">
+        <div class="input-email">
             <label for="email">Email:</label>
-            <input type="email" id="email" required>
+            <input class="email" type="email" id="email" required>
         </div>
 
-        <div class="pass">
+        <div class="input-pass">
             <label for="password">Password</label>
             <input type="password" id="password">
         </div>
+    
 
         <div>
             <label for="adjunto">Adjuntar archivo</label>
@@ -124,26 +126,27 @@
         
         
         <div class="envio">
-            <input type="submit" value="Enviar ahora">
-            <input type="reset" value="Borrar todo">
+            <input class="enviar" type="submit" value="Enviar ahora">
+            <input class="borrar" type="reset" value="Borrar todo">
         </div>
   
    </form>
   
       </div>
 
-<div class="comunicate">
+<div class="correo">
     
-      <div>
+  
            <img src="../imágenes/logo correo.jpg" alt="correo">
-            <p>riquisimo@gmail.com</p>
-      </div>
+      
+    </div>
     
     <div class="what">
-         <img src="../imágenes/logo whatsapp.png" alt="cel">
+          <a href="https://api.whatsapp.com/send?phone=541557270100">
+         <img src="../imágenes/logo whatsapp.png" alt="cel"></a>
     </div>
 
-    </div>
+    
 
     <footer>
 
