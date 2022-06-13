@@ -328,8 +328,8 @@ footer .paginas a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50px;
   margin: 10px;
   margin-left: 10px;
