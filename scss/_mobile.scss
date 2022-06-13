@@ -305,7 +305,6 @@ footer{
 .imagenes-especiales{
     display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr;
         padding: 10px;
 
         div{
@@ -317,8 +316,7 @@ footer{
         border-radius: 50px;
         border: solid 2px black;
         margin:10px;
-        margin-left: 10px; 
-        flex-direction: row;
+        margin-left: 10px; flex-direction: row;
     
             }
         }
