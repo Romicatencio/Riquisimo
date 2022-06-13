@@ -164,6 +164,7 @@ footer{
     display: flex;
     justify-content:space-around;
     background-color: darkgray;
+    padding: 10px;
 
     .pago{ display: flex;
         align-items: center;
@@ -304,7 +305,7 @@ footer{
 .imagenes-especiales{
     display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         padding: 10px;
 
         div{
@@ -430,6 +431,8 @@ footer{
     padding: 10px;
     border-radius: 30px;
     border: solid 3px black;
+    width: 250px;
+    height: 200px;
     
 }
 /* botones de envio y borrar todo */
