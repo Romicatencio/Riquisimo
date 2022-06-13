@@ -318,6 +318,7 @@ footer{
         border: solid 2px black;
         margin:10px;
         margin-left: 10px; 
+        flex-direction: row;
     
             }
         }
@@ -433,7 +434,8 @@ footer{
     border-radius: 30px;
     border: solid 3px black;
     width: 300px;
-    height: 600px;
+    height: 800px;
+    padding: 5px;
     
     
 }
