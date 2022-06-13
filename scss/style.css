@@ -97,7 +97,7 @@ ul li a:hover {
   background-color: lightpink;
   text-align: center;
   padding: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
   width: 250px;
 }
 
@@ -105,7 +105,7 @@ ul li a:hover {
 .card-nov img {
   width: 250px;
   height: auto;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 /* boton de img */
@@ -271,7 +271,7 @@ footer .paginas a {
 .card-group .card {
   border: solid black 3px;
   width: 300px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 /* titulo de servicios */
@@ -332,7 +332,7 @@ footer .paginas a {
   height: 150px;
   border-radius: 50px;
   margin: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -408,7 +408,7 @@ footer .paginas a {
 .formulario {
   font-size: 15px;
   color: brown;
-  margin-left: 5px;
+  margin-left: 10px;
   border-radius: 30px;
   border: solid 3px black;
   width: 300px;
@@ -875,6 +875,8 @@ del texto de cards */
     background-color: white;
     border-radius: 30px;
     border: solid 5px black;
+    width: 600px;
+    height: 800px;
   }
   /* botones de envio y borrar todo */
   .envio {
