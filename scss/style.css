@@ -316,8 +316,8 @@ footer .paginas a {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
   padding: 10px;
 }
 
@@ -439,11 +439,8 @@ footer .paginas a {
 .formulario {
   font-size: 15px;
   color: brown;
-  padding: 10px;
   border-radius: 30px;
   border: solid 3px black;
-  width: 250px;
-  height: 200px;
 }
 
 /* botones de envio y borrar todo */
