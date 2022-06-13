@@ -12,7 +12,9 @@ font-family: 'Satisfy', cursive;}
     /* Menu de navegacion */
     .container-fluid{
         background-color: white;
-    }
+        
+}
+    
     .navbar { color: black;
     
         .img-logo{
@@ -24,7 +26,7 @@ font-family: 'Satisfy', cursive;}
             font-size: 20px;
         }
 
-        ul{ 
+        ul{ margin-left: 200px;
             li a{
                 background-color: white;
                 color:deeppink;
@@ -51,70 +53,58 @@ font-family: 'Satisfy', cursive;}
         background-image: url(../imágenes/fondoalfajores.jpg);
         width: 100%;
         height: auto;
+
+        .titulo-h1{
+            font-size: 50px;
+        color: brown;
+        text-align: center;
+        }
+    
+        .titulo-h2{
+            font-size: 35px;
+        color: brown;
+        text-align: center;
+        }
     }
 
-    /* .titulo-2{
-        h1{
-            font-size: 50px;
-            color: brown;
-            text-align: center;
-            padding: 10px;
-            margin-top: 10px;
-        }
-
-        h2{
-            font-size: 30px;
-            color: brown;
-            text-align: center;
-        }
-    } */
-
-    /* video y presentacion */
+  
 .nosotros{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-
-    div{
-        video{width: 100%;
-            min-width: 600px;
-            height: 400px;
-            margin-top: -20px;
-            margin-left: 15px;
-
+/* explicacion del emprendimiento */
+    .presentacion{
+        .p1{
+        padding: 10px;
+        margin-left: 10px; 
+        color: brown;
+        font-weight: 400;
+        font-size: 25px;
+        padding-top: 20px; 
+        margin-top: 10px; 
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        position: relative;
+        }
+    
+        .p2{
+        padding: 10px;
+        margin-left: 10px;
+        color: brown;
+        font-weight: 400;
+        display:block;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        font-size: 25px;
         }
     }
+
 }
 
-/* explicacion del emprendimiento */
 
-.presentacion{
-    .p1{
-    padding: 10px;
-    margin-left: 10px; 
-    color: brown;
-    font-weight: 400;
-    font-size: 20px;
-    padding-top: 20px; 
-    margin-top: 10px; 
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    position: relative;
-    }
 
-    .p2{
-    padding: 10px;
-    margin-left: 10px;
-    color: brown;
-    font-weight: 400;
-    display:block;
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-    font-size: 20px;
-    }
-}
 
 /* seccion de novedades */ 
 /* titulo:novedades */
@@ -129,9 +119,11 @@ font-family: 'Satisfy', cursive;}
 }
 
 /* imagenes de novedades */
-    .card img{
-        width: 285px;
+    .card-nov img{
+        width: 300px;
         height: 250px;
+        margin-left: 40px;
+      
 
     }
 /* alineacion  y color
@@ -139,8 +131,17 @@ del texto de cards */
     .card-body{
         text-align: center;
         background-color: lightpink;
+        padding: 20px;
+        width: 300px;
+        margin-left: 40px;
+        
     }
 
+    /* boton de img */
+.btn{
+    background-color: white;
+    color:crimson;
+}
 /* titulo-presentacion de novedades */
 section .titulo-novedades {
     font-size: 40px;
@@ -173,12 +174,49 @@ section .titulo-novedades {
 }
 
 /* pie de pagina */
+
 footer{
-    background-color: lightcoral;
-    color:black;
-    text-align: center;
-    font-size: 20px;
+    display: flex;
+    justify-content:space-around;
+    background-color: lightpink;
+    padding: 20px;
+
+    .pago{ display: flex;
+        align-items: center;
+        
+        
+        h3{
+            font-size: 20px;
+            color: black;
+        }
+    
+        img{
+            width: 80px;
+            height: auto;
+        
+        }
     }
+    .paginas a{
+        display: block;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+    
+    
+    }
+
+    
+
+}
+
+    /* titulo principal  */
+.Titulo-pro{
+      color:black;
+      text-align: center;
+      
+}
 
 .productos{
     display: grid;
@@ -186,7 +224,6 @@ footer{
     grid-template-rows: 1fr;
     gap: 3px;
     padding: 20px;
-    /* background-color: antiquewhite; */
     margin-left: 50px;
     
 /* imagen de los productos */
@@ -210,12 +247,9 @@ footer{
 
 /* servicios */
 
-/* borde de card */
-.card-group .card{
-    border: solid black 3px;
 
 
-}
+
 
 /* titulo de servicios */
 .card-title{
@@ -223,13 +257,58 @@ footer{
     text-align: center;
     font-weight: 30;
     color:crimson;}
+    
 
 /* posicion de las img de servicios */
-.card img{
-     margin-left: 30px;
+/* borde de card */
+.card {border: solid black 3px;
+   
+
+    .desayuno{
+        width: 330px;
+        height: 250px;
+    }
+    .mesa{
+        width: 330px;
+        height: 250px;
+    }
+     
+    .vianda{
+        width: 330px;
+        height: 250px;
+    }
+    
     
 }
+
+/* contenedor de las card */
+.card-body2{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 25px;
+
+}
+
+
+/* titulo principal */
+.n-ser h1{
+    font-size: 40px;
+    color:brown;
+    text-align: center;
+    background-color: lightcyan;
+}
 /* Especiales */
+
+/* titulo principal  */
+.m-esp{
+color:white;
+background-color: black;
+text-align: center;
+font-size: 45px;
+}
+    
+
 /* explicacion de las propuestas
 "especiales" */
 
@@ -265,93 +344,36 @@ footer{
     }
 
     /* organizacion de las imagenes */
+    .galeria{
+        display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+            grid-template-rows: 1fr   ;
+            overflow: scroll;
+            height: 300px;
+            gap: 7px;
+            padding: 10px;
+
     
-    .pascuas{
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr    ;
-         grid-template-rows: 1fr 1fr   ;
-         gap: 10px;
 
-         
-            }
-
-        .madre{
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr    ;
-         grid-template-rows: 1fr 1fr   ;
-         gap: 10px;
+        img{
+        
+            width: 200px;
+            height: 200px; 
+            border: solid 5px black;
+            margin-top: 10px;
+            &:hover{
+                transform: scale(1.2);
+                transition: all 1s;
+    
+             }
             
-            }
-        .fiestas{
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr    ;
-         grid-template-rows: 1fr 1fr   ;
-         gap: 10px;
+           
+        }
 
-         
-            }
-        .viandas{
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr    ;
-         grid-template-rows: 1fr 1fr   ;
-         gap: 10px;
+        }
+    
+    
 
-         
-            }
-        
-    /* formato de las imagenes */
-    .pascuas img{
-        width: 250px;
-        height: 300px; 
-        border: solid 5px black;
-        &:hover{
-            transform: scale(1.5);
-            transition: all 1s;
-
-         }
-        
-       
-    }
-
-    .fiestas img{
-        width: 250px;
-        height: 250px; 
-        border: solid 5px black;
-
-        &:hover{
-            transform: scale(1.5);
-            transition: all 1s;
-
-         }
-    }
-
-    .madre img{
-        width: 250px;
-        height: 250px; 
-        border: solid 5px black;
-        position: relative;
-        left: 30px;
-
-        &:hover{
-            transform: scale(1.5);
-            transition: all 1s;
-
-         }
-    }
-
-    .viandas img{
-        width: 250px;
-        height: 250px; 
-        border: solid 5px black;
-        position: relative;
-        left: 30px;
-
-        &:hover{
-            transform: scale(1.5);
-            transition: all 1s;
-
-         }
-    }
  /* titulo de las imagenes */
  .text-pas, .text-fi, .text-ma, .text-vi{
     display: block;
@@ -371,18 +393,28 @@ footer{
 }
 /* texto explicativo del formulario */
 
-.pedido-formulario p {
-    font-size: 25px;
-    color:brown;
+.pedido-formulario {
     background-image: url(../imágenes/fondo.jpg);
     border-radius: 30px;
     width: 500px;
-    height: 400px;
-   position: relative;
-   left: 10px;
-   
-  
+    height: 800px;
+    padding-left: 20px;
+    margin-left: 10px;
+    h2{  font-size: 25px;
+        color:brown;
+        position: relative;
+        left: 10px;
 
+    }
+
+    h1{
+        font-size: 30px;
+        color:brown;
+        position: relative;
+        left: 10px;
+        margin:10px;
+        padding: 30px;
+    }
 }
 /* formulario a completar */
 .formulario{
@@ -412,7 +444,10 @@ footer{
     }
 
     
-    
+  .comen{
+      font-size: 15px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }  
 
 /* input de correo, nombre y pass */
         .input-nombre{
@@ -478,10 +513,9 @@ footer{
 
 /* logo de whatsapp */
 .what{
-    position:fixed;
-    z-index: 500;
-    top: 0px;
-    float: right;
+    position:sticky;
+    bottom: 0;
+    margin-left: 1200px;
     
 
     img{
@@ -490,6 +524,10 @@ footer{
     }
 }
 
+
+.conocer{
+    display: inline-block;
+}
 
 
 
