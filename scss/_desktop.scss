@@ -101,10 +101,7 @@ font-family: 'Satisfy', cursive;}
         }
     }
 
-    .carousel-item{
-        
-        transition-duration: 1s;
-    }
+   
 }
 
 
@@ -182,7 +179,7 @@ section .titulo-novedades {
 footer{
     display: flex;
     justify-content:space-around;
-    background-color: lightpink;
+    background-color:darkgray;
     padding: 20px;
 
     .pago{ display: flex;
@@ -331,17 +328,18 @@ font-size: 45px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 20px;
+    padding: 10px;
 
     /* imagenes */
        div img{
             display: flex;
             justify-content: center;
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 350px;
             border-radius: 50px;
-            margin:10px;
-            margin-left: 100px;
+            margin:5px;
+            margin-left: 70px;
+            border: solid 3px black;
         }
     
        
@@ -363,8 +361,9 @@ font-size: 45px;
         
             width: 200px;
             height: 200px; 
-            border: solid 5px black;
+            border: solid 4px black;
             margin-top: 10px;
+            margin-left: 10px;
             &:hover{
                 transform: scale(1.2);
                 transition: all 1s;

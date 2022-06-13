@@ -63,7 +63,7 @@ ul li a:hover {
   text-align: center;
 }
 
-/* video y presentacion*/
+/*  presentacion*/
 .nosotros {
   display: -ms-grid;
   display: grid;
@@ -166,7 +166,7 @@ footer {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: lightpink;
+  background-color: darkgray;
 }
 
 footer .pago {
@@ -681,7 +681,7 @@ del texto de cards */
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background-color: lightpink;
+    background-color: darkgray;
     padding: 20px;
   }
   footer .pago {
@@ -809,7 +809,7 @@ del texto de cards */
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-    padding: 20px;
+    padding: 10px;
     /* imagenes */
   }
   .imagenes-especiales div img {
@@ -819,11 +819,12 @@ del texto de cards */
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     border-radius: 50px;
-    margin: 10px;
-    margin-left: 100px;
+    margin: 5px;
+    margin-left: 70px;
+    border: solid 3px black;
   }
   /* organizacion de las imagenes */
   .galeria {
@@ -841,8 +842,9 @@ del texto de cards */
   .galeria img {
     width: 200px;
     height: 200px;
-    border: solid 5px black;
+    border: solid 4px black;
     margin-top: 10px;
+    margin-left: 10px;
   }
   .galeria img:hover {
     -webkit-transform: scale(1.2);
