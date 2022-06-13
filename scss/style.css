@@ -311,51 +311,12 @@ footer .paginas a {
 }
 
 /* contenedor de las imagenes*/
+/* organizacion de las imagenes */
 .imagenes-especiales {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  padding: 10px;
-}
-
-.imagenes-especiales div img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 50px;
-  border: solid 2px black;
-  margin: 10px;
-  margin-left: 10px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-/* texto explicativo de los servicios */
-.especiales p {
-  color: brown;
-  font: 40px;
-  text-align: center;
-  font-weight: 40;
-}
-
-/* organizacion de las imagenes */
-.imagenes-especiales {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
   padding: 20px;
   /* imagenes */
 }
@@ -371,7 +332,11 @@ footer .paginas a {
   height: 250px;
   border-radius: 50px;
   margin: 10px;
-  margin-left: 100px;
+  margin-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* organizacion de las imagenes */

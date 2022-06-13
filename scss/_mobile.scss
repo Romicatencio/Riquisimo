@@ -291,51 +291,25 @@ footer{
    /* Especiales */
 /* explicacion de las propuestas
 "especiales" */
-.especiales p {
-    font-size: 20px;
-    color:brown;
-    text-align: center;
-    font-weight: 400;
-    padding: 20px;
-    margin: 30px;
-    
-}
+
+.especiales p { 
+
+        font-size: 20px;
+        color:brown;
+        text-align: center;
+        font-weight: 400;
+        padding: 20px;
+        margin: 30px;
+        
+    }
 
 /* contenedor de las imagenes*/
-.imagenes-especiales{
-    display: grid;
-        grid-template-columns: 1fr ;
-        padding: 10px;
 
-        div{
-            img{
-                display: flex;
-        justify-content: center;
-        width: 200px;
-        height: 200px;
-        border-radius: 50px;
-        border: solid 2px black;
-        margin:10px;
-        margin-left: 10px; flex-direction: row;
-    
-            }
-        }
-}
-
-/* texto explicativo de los servicios */
-.especiales p{
-    color: brown;
-    font: 40px;
-    text-align: center;
-    font-weight: 40;
-   
-}
 
 /* organizacion de las imagenes */
 .imagenes-especiales{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
     padding: 20px;
 
     /* imagenes */
@@ -346,7 +320,8 @@ footer{
             height: 250px;
             border-radius: 50px;
             margin:10px;
-            margin-left: 100px;
+            margin-left: 10px;
+            flex-direction: column;
         }
 }
        
