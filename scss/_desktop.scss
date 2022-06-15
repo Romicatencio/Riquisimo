@@ -79,7 +79,7 @@ font-family: 'Satisfy', cursive;}
         margin-left: 10px; 
         color: brown;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 23px;
         padding-top: 20px; 
         margin-top: 10px; 
         width: 100%;
@@ -97,7 +97,7 @@ font-family: 'Satisfy', cursive;}
         width: 100%;
         max-width: 800px;
         margin: auto;
-        font-size: 25px;
+        font-size: 23px;
         }
     }
 
@@ -181,6 +181,7 @@ footer{
     justify-content:space-around;
     background-color:darkgray;
     padding: 20px;
+    
 
     .pago{ display: flex;
         align-items: center;
@@ -194,6 +195,7 @@ footer{
         img{
             width: 80px;
             height: auto;
+            margin: 5px;
         
         }
     }

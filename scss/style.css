@@ -1,445 +1,503 @@
 @charset "UTF-8";
-@media (min-width: 320px) and (max-width: 768px) {
-  /* logo y menu de navegacion */
-  .img-logo {
-    width: 50px;
-    height: 50px;
-  }
-  .nav-item {
-    font-size: 15px;
-  }
-  /* barra de navegacion */
-  .container-fluid {
-    background-color: white;
-  }
-  /* botton-menu hamnurguesa */
-  .navbar-toggler-icon {
-    background-color: lightpink;
-  }
-  ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  ul li a {
-    background-color: white;
-    color: deeppink;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-size: 10px;
-    margin: 0 20px;
-  }
-  ul li a:hover {
-    background-color: lightpink;
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 30px;
-    font-size: 15px;
-    margin: 0 20px;
-  }
-  .titulo h1 {
-    font-size: 25px;
-    color: brown;
-    text-align: center;
-  }
-  .titulo h2 {
-    font-size: 20px;
-    color: brown;
-    text-align: center;
-  }
-  /*  presentacion*/
-  .nosotros {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-    /* explicacion del emprendimiento */
-  }
-  .nosotros .presentacion .p1 {
-    padding: 5px;
-    margin-left: 5px;
-    color: brown;
-    font-weight: 400;
-  }
-  .nosotros .presentacion .p2 {
-    display: none;
-  }
-  /* seccion de novedades */
-  /* titulo de las imagenes */
-  .card-text {
-    font-size: 15px;
-    color: black;
-  }
-  /* contenedor de card */
-  .card-body {
-    background-color: lightpink;
-    text-align: center;
-    padding: 20px;
-    margin-left: 60px;
-    width: 250px;
-  }
-  /* img */
-  .card-nov img {
-    width: 250px;
-    height: auto;
-    margin-left: 60px;
-  }
-  /* boton de img */
-  .btn {
-    background-color: white;
-    color: crimson;
-  }
-  /* titulo, presentacion de novedades */
-  section .titulo-novedades {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin: 15px;
-    background-color: burlywood;
-  }
-  /* texto de viandas-pascuas-fiestas */
-  .novedades p {
-    margin: 5px;
-    font-size: 15px;
-    color: black;
-    margin-left: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  /* redes sociales */
-  .titulo-redes p {
-    font-size: 20px;
-    color: brown;
-    display: inline-block;
-    margin: 10px;
-    margin-top: 20px;
-  }
-  /* logo de instagra y facebook */
-  .redes img {
-    width: 25px;
-    height: 25px;
-    margin: 20px;
-    display: block;
-  }
-  /* pie de pagina */
-  footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    background-color: darkgray;
-    padding: 20px;
-  }
-  footer .pago {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  footer .pago h3 {
-    font-size: 15px;
-    color: black;
-  }
-  footer .pago img {
-    width: 50px;
-    height: auto;
-  }
-  footer .paginas a {
-    display: none;
-  }
-  /* titulo principal  */
-  .Titulo-pro {
-    color: black;
-    text-align: center;
-    font-size: 30px;
-  }
-  /* productos que se ofrecen */
-  /* secciones de los productos */
-  .productos {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    gap: 2px;
-    padding: 5px;
-    /* imagenes de los productos */
-    /* nombre de los productos */
-  }
-  .productos div img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 120px;
-    height: 120px;
-    border-radius: 30px;
-    margin: 20px;
-  }
-  .productos div p {
-    font-size: 25px;
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 10px;
-    border-radius: 30px;
-  }
-  /* servicios */
-  /* titulo principal */
-  .n-ser h1 {
-    font-size: 30px;
-    color: brown;
-    text-align: center;
-    background-color: lightcyan;
-  }
-  .n-ser {
-    font-size: 30px;
-    color: brown;
-    text-align: center;
-    background-color: lightcyan;
-  }
-  /* imagenes de los servicios */
-  /* tamaño de las imagenes */
-  .card-img-top {
-    width: 50px;
-    height: auto;
-  }
-  /* contenedor de las imagenes */
-  .card-group .card {
-    border: solid black 3px;
-    width: 300px;
-    margin-left: 60px;
-  }
-  /* titulo de servicios */
-  .card-title {
-    font-size: 25px;
-    text-align: center;
-    font-weight: 30;
-    color: crimson;
-  }
-  .card-body2 {
-    width: 250px;
-    height: 300px;
-    text-align: center;
-    margin-left: 10px;
-  }
-  /* Especiales */
-  /* titulo principal  */
-  .m-esp {
-    color: white;
-    background-color: black;
-    text-align: center;
-    font-size: 25px;
-  }
-  /* Especiales */
-  /* explicacion de las propuestas
+/* logo y menu de navegacion */
+.img-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-item {
+  font-size: 15px;
+}
+
+/* barra de navegacion */
+.container-fluid {
+  background-color: white;
+}
+
+/* botton-menu hamnurguesa */
+.navbar-toggler-icon {
+  background-color: lightpink;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul li a {
+  background-color: white;
+  color: deeppink;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 10px;
+  margin: 0 20px;
+}
+
+ul li a:hover {
+  background-color: lightpink;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+.titulo h1 {
+  font-size: 25px;
+  color: brown;
+  text-align: center;
+}
+
+.titulo h2 {
+  font-size: 20px;
+  color: brown;
+  text-align: center;
+}
+
+/*  presentacion*/
+.nosotros {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  /* explicacion del emprendimiento */
+}
+
+.nosotros .presentacion .p1 {
+  padding: 5px;
+  margin-left: 5px;
+  color: brown;
+  font-weight: 400;
+}
+
+.nosotros .presentacion .p2 {
+  display: none;
+}
+
+/* seccion de novedades */
+/* titulo de las imagenes */
+.card-text {
+  font-size: 15px;
+  color: black;
+}
+
+/* contenedor de card */
+.card-body {
+  background-color: lightpink;
+  text-align: center;
+  padding: 20px;
+  margin-left: 60px;
+  width: 250px;
+}
+
+/* img */
+.card-nov img {
+  width: 250px;
+  height: auto;
+  margin-left: 60px;
+}
+
+/* boton de img */
+.btn {
+  background-color: white;
+  color: crimson;
+}
+
+/* titulo, presentacion de novedades */
+section .titulo-novedades {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+  background-color: burlywood;
+}
+
+/* texto de viandas-pascuas-fiestas */
+.novedades p {
+  margin: 5px;
+  font-size: 15px;
+  color: black;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* redes sociales */
+.titulo-redes p {
+  font-size: 20px;
+  color: brown;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+/* logo de instagra y facebook */
+.redes img {
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  display: block;
+}
+
+/* pie de pagina */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: darkgray;
+  padding: 20px;
+}
+
+footer .pago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .pago h3 {
+  font-size: 15px;
+  color: black;
+}
+
+footer .pago img {
+  width: 50px;
+  height: auto;
+}
+
+footer .paginas a {
+  display: none;
+}
+
+/* titulo principal  */
+.Titulo-pro {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* productos que se ofrecen */
+/* secciones de los productos */
+.productos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 2px;
+  padding: 5px;
+  /* imagenes de los productos */
+  /* nombre de los productos */
+}
+
+.productos div img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 120px;
+  height: 120px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.productos div p {
+  font-size: 25px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+/* servicios */
+/* titulo principal */
+.n-ser h1 {
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.n-ser {
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+/* imagenes de los servicios */
+/* tamaño de las imagenes */
+.card-img-top {
+  width: 50px;
+  height: auto;
+}
+
+/* contenedor de las imagenes */
+.card-group .card {
+  border: solid black 3px;
+  width: 300px;
+  margin-left: 60px;
+}
+
+/* titulo de servicios */
+.card-title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 30;
+  color: crimson;
+}
+
+.card-body2 {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* Especiales */
+/* titulo principal  */
+.m-esp {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Especiales */
+/* explicacion de las propuestas
 "especiales" */
-  .especiales p {
-    font-size: 20px;
-    color: brown;
-    text-align: center;
-    font-weight: 400;
-    padding: 20px;
-    margin: 30px;
-  }
-  /* contenedor de las imagenes*/
-  /* organizacion de las imagenes */
-  .imagenes-especiales {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    padding: 20px;
-    /* imagenes */
-  }
-  .imagenes-especiales div img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 50px;
-    margin: 10px;
-    margin-left: 100px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  /* organizacion de las imagenes */
-  .galeria {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
-    overflow: scroll;
-    gap: 7px;
-    padding: 10px;
-  }
-  .galeria img {
-    width: 100px;
-    height: 100px;
-    border: solid 5px black;
-    margin-top: 10px;
-  }
-  /* texto que acompaña las imagenes:
+.especiales p {
+  font-size: 20px;
+  color: brown;
+  text-align: center;
+  font-weight: 400;
+  padding: 20px;
+  margin: 30px;
+}
+
+/* contenedor de las imagenes*/
+/* organizacion de las imagenes */
+.imagenes-especiales {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  padding: 20px;
+  /* imagenes */
+}
+
+.imagenes-especiales div img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  margin: 10px;
+  margin-left: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* organizacion de las imagenes */
+.galeria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  overflow: scroll;
+  gap: 7px;
+  padding: 10px;
+}
+
+.galeria img {
+  width: 100px;
+  height: 100px;
+  border: solid 5px black;
+  margin-top: 10px;
+}
+
+/* texto que acompaña las imagenes:
     dia de la madre, fiestas,viandas y pascuas */
-  .text-pas, .text-fi, .text-ma, .text-vi {
-    display: block;
-    background-color: peachpuff;
-    color: black;
-    font-size: 20px;
-    font-weight: 40;
-    text-align: center;
-  }
-  /* formulario */
-  /* organización de la pagina */
-  .completar {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  /* texto explicativo del formulario */
-  .pedido-formulario {
-    background-image: url(../imágenes/fondo.jpg);
-    border-radius: 30px;
-    width: 350px;
-    height: 200px;
-    padding: 20px;
-  }
-  .pedido-formulario h1 {
-    font-size: 20px;
-    color: black;
-    position: relative;
-    left: 60px;
-    top: 20px;
-  }
-  .pedido-formulario h2 {
-    font-size: 15px;
-    color: black;
-    position: relative;
-    left: 60px;
-    top: 20px;
-  }
-  /* formulario a completar */
-  .formulario {
-    font-size: 15px;
-    color: brown;
-    margin-left: 20px;
-    border-radius: 30px;
-    border: solid 3px black;
-    width: 350px;
-    height: 800px;
-    padding: 10px;
-  }
-  /* botones de envio y borrar todo */
-  .envio {
-    margin-top: 50px;
-  }
-  .envio .enviar {
-    background-color: lightsalmon;
-  }
-  .envio .borrar {
-    background-color: aquamarine;
-  }
-  /* organizacion botones-donde nos conociste */
-  .conocer {
-    display: block;
-  }
-  /* recibir informacion */
-  .me-gustaria {
-    margin-top: 10px;
-  }
-  /* organizacion img de correo y whatsapp */
-  .correo {
-    display: block;
-  }
-  .correo img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    margin: 50px;
-  }
-  /* logo de whatsapp */
-  .what {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
-    margin-left: 400px;
-  }
-  .what img {
-    width: 80px;
-    height: auto;
-  }
-  /* correo */
-  .input-email {
-    padding: 10px;
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    margin-top: 5px;
-  }
-  .input-email .email {
-    margin-left: 3px;
-  }
-  /* password */
-  .input-pass {
-    display: inline-block;
-    position: relative;
-    padding: 3px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    width: 200px;
-    /* margin-bottom: 20px; */
-  }
-  .input-nombre {
-    display: inline-block;
-    padding: 5px;
-    position: relative;
-    width: 200px;
-    margin-top: 5px;
-  }
-  .comen {
-    margin-top: 10px;
-  }
+.text-pas, .text-fi, .text-ma, .text-vi {
+  display: block;
+  background-color: peachpuff;
+  color: black;
+  font-size: 20px;
+  font-weight: 40;
+  text-align: center;
+}
+
+/* formulario */
+/* organización de la pagina */
+.completar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+/* texto explicativo del formulario */
+.pedido-formulario {
+  background-image: url(../imágenes/fondo.jpg);
+  border-radius: 30px;
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+}
+
+.pedido-formulario h1 {
+  font-size: 20px;
+  color: black;
+  position: relative;
+  left: 60px;
+  top: 20px;
+}
+
+.pedido-formulario h2 {
+  font-size: 15px;
+  color: black;
+  position: relative;
+  left: 60px;
+  top: 20px;
+}
+
+/* formulario a completar */
+.formulario {
+  font-size: 15px;
+  color: brown;
+  margin-left: 20px;
+  border-radius: 30px;
+  border: solid 3px black;
+  width: 350px;
+  height: 800px;
+  padding: 10px;
+}
+
+/* botones de envio y borrar todo */
+.envio {
+  margin-top: 50px;
+}
+
+.envio .enviar {
+  background-color: lightsalmon;
+}
+
+.envio .borrar {
+  background-color: aquamarine;
+}
+
+/* organizacion botones-donde nos conociste */
+.conocer {
+  display: block;
+}
+
+/* recibir informacion */
+.me-gustaria {
+  margin-top: 10px;
+}
+
+/* organizacion img de correo y whatsapp */
+.correo {
+  display: block;
+}
+
+.correo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: 50px;
+}
+
+/* logo de whatsapp */
+.what {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  margin-left: 380px;
+}
+
+.what img {
+  width: 80px;
+  height: auto;
+}
+
+/* correo */
+.input-email {
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.input-email .email {
+  margin-left: 3px;
+}
+
+/* password */
+.input-pass {
+  display: inline-block;
+  position: relative;
+  padding: 3px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  /* margin-bottom: 20px; */
+}
+
+.input-nombre {
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.comen {
+  margin-top: 10px;
 }
 
 * {
@@ -519,7 +577,7 @@
     margin-left: 10px;
     color: brown;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 20px;
     margin-top: 10px;
     width: 100%;
@@ -536,7 +594,7 @@
     width: 100%;
     max-width: 800px;
     margin: auto;
-    font-size: 25px;
+    font-size: 23px;
   }
   /* seccion de novedades */
   /* titulo:novedades */
@@ -614,6 +672,7 @@ del texto de cards */
   footer .pago img {
     width: 80px;
     height: auto;
+    margin: 5px;
   }
   footer .paginas a {
     display: block;
