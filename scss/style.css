@@ -301,7 +301,7 @@ footer .paginas a {
 /* Especiales */
 /* explicacion de las propuestas
 "especiales" */
-.especiales p {
+.especiales div p {
   font-size: 20px;
   color: brown;
   text-align: center;
@@ -319,6 +319,10 @@ footer .paginas a {
       grid-template-columns: 1fr;
   padding: 20px;
   /* imagenes */
+}
+
+.imagenes-especiales a {
+  text-decoration: none;
 }
 
 .imagenes-especiales div img {
@@ -767,7 +771,7 @@ del texto de cards */
   }
   /* explicacion de las propuestas
 "especiales" */
-  .especiales p {
+  .especiales div p {
     font-size: 30px;
     color: brown;
     text-align: center;
@@ -785,6 +789,9 @@ del texto de cards */
         grid-template-rows: 1fr;
     padding: 10px;
     /* imagenes */
+  }
+  .imagenes-especiales a {
+    text-decoration: none;
   }
   .imagenes-especiales div img {
     display: -webkit-box;

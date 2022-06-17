@@ -294,14 +294,19 @@ footer{
 /* explicacion de las propuestas
 "especiales" */
 
-.especiales p { 
+.especiales div  { 
+
+    
+       p{
 
         font-size: 20px;
         color:brown;
         text-align: center;
         font-weight: 400;
         padding: 20px;
-        margin: 30px;
+        margin: 30px;}
+    
+        
         
     }
 
@@ -313,6 +318,10 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px;
+
+    a{
+        text-decoration: none;
+    }
 
     /* imagenes */
        div img{

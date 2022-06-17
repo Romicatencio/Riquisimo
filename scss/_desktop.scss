@@ -315,22 +315,26 @@ font-size: 45px;
 /* explicacion de las propuestas
 "especiales" */
 
-.especiales p {
-    font-size: 30px;
-    color:brown;
-    text-align: center;
-    font-weight: 400;
-    padding: 20px;
-    margin: 30px;
-   
-    
-}
+.especiales div {
+    p {font-size: 30px;
+        color:brown;
+        text-align: center;
+        font-weight: 400;
+        padding: 20px;
+        margin: 30px;   
+}}
+
  /* contenedor de las imagenes*/
  .imagenes-especiales{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 10px;
+
+
+    a{
+        text-decoration: none;
+    }
 
     /* imagenes */
        div img{
