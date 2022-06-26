@@ -19,7 +19,7 @@
     background-color: lightpink;
     
 }
-
+/* org del menu de navegacion */
 ul{ 
     li{display:flex; 
         align-items: center;
@@ -46,6 +46,7 @@ ul{
     }}
 }
 
+/* titulo-pagina de inicio */
 .titulo{
     h1{
         font-size: 25px;
@@ -140,34 +141,43 @@ section .titulo-novedades {
 }
 
 /* redes sociales */
-
-
+   .seguinos{
+    text-align: center;
+   
+/* titulo:seguinos en nuestras redes */
 .titulo-redes p {
-    font-size: 20px;
-    color:brown;
-    display: inline-block;
-    margin:10px;
-    margin-top: 20px;
+    font-size:15px;
+    color:black;
+    background-color: white;
+    text-align: center;
+    border: solid 8px pink;
+    margin-top: 10px;
     
 }
 
-/* logo de instagra y facebook */
-.redes img {
-    width: 25px;
-    height: 25px;
-    margin: 20px;
-    display:block;
+/* logo de instagram y facebook */
+.redes {
+    display:inline-block;
     
-    
-}
+    .ins{
+        width: 40px;
+        height: 40px;
+    }
 
+    .fac{
+        width: 50px;
+        height: 50px;
+    }
+    
+}}
 /* pie de pagina */
 footer{
     display: flex;
     justify-content:space-around;
-    background-color: darkgray;
+    background-color: lightsalmon;
     padding: 20px;
 
+    /* formas de pago */
     .pago{ display: flex;
         align-items: center;
         
@@ -179,10 +189,13 @@ footer{
     
         img{
             width: 50px;
-            height: auto;
+            height: 30px;
+            padding: 5px;
         
         }
     }
+
+    /* link de paginas */
     .paginas a{
         
         display: none;
@@ -260,7 +273,7 @@ footer{
    .card-group .card{
        border: solid black 3px;
        width: 300px;
-       margin-left: 60px;
+       margin-left: 40px;
    }
    
    
@@ -310,10 +323,9 @@ footer{
         
     }
 
-/* contenedor de las imagenes*/
 
 
-/* organizacion de las imagenes */
+/* organizacion de las imagenes:madre-fiestas-pascuas */
 .imagenes-especiales{
     display: grid;
     grid-template-columns: 1fr;
@@ -331,14 +343,14 @@ footer{
             height: 200px;
             border-radius: 50px;
             margin:10px;
-            margin-left: 100px;
+            margin-left: 90px;
             flex-direction: column;
         }
 }
        
 
 
-    /* organizacion de las imagenes */
+    /* organizacion de las imagenes:pascuas-viandas-fiestas-madre */
     .galeria{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -447,18 +459,26 @@ footer{
 .correo{
     display: block;
 
+    h3{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color: black;
+        margin-left:40px;
+        font-weight: 30px;
+    }
+
 img{
     width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    margin: 50px;
+    height:auto;
+    margin-left: 30px;
+    margin-top: 10px;
     }
 }
     /* logo de whatsapp */
 .what{
     position:sticky;
     bottom: 0;
-    margin-left: 350px;
+    margin-left: 300px;
     
 
     img{
@@ -492,8 +512,9 @@ img{
     margin-top: 5px; 
     margin-bottom: 10px;
     width: 200px;
-    /* margin-bottom: 20px; */
 }
+
+/* nombre */
 
 .input-nombre{
     display:inline-block;
@@ -503,7 +524,7 @@ img{
     margin-top: 5px;
     
 }
-
+/* comentarios */
 .comen{
     margin-top: 10px;
 }

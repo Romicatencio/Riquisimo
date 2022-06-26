@@ -19,6 +19,7 @@
   background-color: lightpink;
 }
 
+/* org del menu de navegacion */
 ul li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,6 +52,7 @@ ul li a:hover {
   margin: 0 20px;
 }
 
+/* titulo-pagina de inicio */
 .titulo h1 {
   font-size: 25px;
   color: brown;
@@ -143,20 +145,33 @@ section .titulo-novedades {
 }
 
 /* redes sociales */
-.titulo-redes p {
-  font-size: 20px;
-  color: brown;
-  display: inline-block;
-  margin: 10px;
-  margin-top: 20px;
+.seguinos {
+  text-align: center;
+  /* titulo:seguinos en nuestras redes */
+  /* logo de instagram y facebook */
 }
 
-/* logo de instagra y facebook */
-.redes img {
-  width: 25px;
-  height: 25px;
-  margin: 20px;
-  display: block;
+.seguinos .titulo-redes p {
+  font-size: 15px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border: solid 8px pink;
+  margin-top: 10px;
+}
+
+.seguinos .redes {
+  display: inline-block;
+}
+
+.seguinos .redes .ins {
+  width: 40px;
+  height: 40px;
+}
+
+.seguinos .redes .fac {
+  width: 50px;
+  height: 50px;
 }
 
 /* pie de pagina */
@@ -166,8 +181,10 @@ footer {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: darkgray;
+  background-color: lightsalmon;
   padding: 20px;
+  /* formas de pago */
+  /* link de paginas */
 }
 
 footer .pago {
@@ -186,7 +203,8 @@ footer .pago h3 {
 
 footer .pago img {
   width: 50px;
-  height: auto;
+  height: 30px;
+  padding: 5px;
 }
 
 footer .paginas a {
@@ -271,7 +289,7 @@ footer .paginas a {
 .card-group .card {
   border: solid black 3px;
   width: 300px;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 /* titulo de servicios */
@@ -310,8 +328,7 @@ footer .paginas a {
   margin: 30px;
 }
 
-/* contenedor de las imagenes*/
-/* organizacion de las imagenes */
+/* organizacion de las imagenes:madre-fiestas-pascuas */
 .imagenes-especiales {
   display: -ms-grid;
   display: grid;
@@ -336,14 +353,14 @@ footer .paginas a {
   height: 200px;
   border-radius: 50px;
   margin: 10px;
-  margin-left: 100px;
+  margin-left: 90px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-/* organizacion de las imagenes */
+/* organizacion de las imagenes:pascuas-viandas-fiestas-madre */
 .galeria {
   display: -ms-grid;
   display: grid;
@@ -448,11 +465,19 @@ footer .paginas a {
   display: block;
 }
 
+.correo h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  color: black;
+  margin-left: 40px;
+  font-weight: 30px;
+}
+
 .correo img {
   width: 80px;
-  height: 80px;
-  border-radius: 50px;
-  margin: 50px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 /* logo de whatsapp */
@@ -460,7 +485,7 @@ footer .paginas a {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 
 .what img {
@@ -489,9 +514,9 @@ footer .paginas a {
   margin-top: 5px;
   margin-bottom: 10px;
   width: 200px;
-  /* margin-bottom: 20px; */
 }
 
+/* nombre */
 .input-nombre {
   display: inline-block;
   padding: 5px;
@@ -500,6 +525,7 @@ footer .paginas a {
   margin-top: 5px;
 }
 
+/* comentarios */
 .comen {
   margin-top: 10px;
 }
@@ -518,19 +544,23 @@ footer .paginas a {
 
 @media screen and (min-width: 769px) {
   /* Menu de navegacion */
+  /* barra de navegacion */
   .container-fluid {
     background-color: white;
   }
   .navbar {
     color: black;
+    /* logo */
   }
   .navbar .img-logo {
     width: 100px;
     height: 100px;
   }
+  /* tamaño texto-menu */
   .nav-item {
     font-size: 20px;
   }
+  /* organizacion del menu */
   ul {
     margin-left: 200px;
   }
@@ -552,10 +582,14 @@ footer .paginas a {
     font-size: 25px;
     margin: 0 20px;
   }
+  /* titulos-pagina de inicio */
+  /* fondo */
   .titulo {
     background-image: url(../imágenes/fondoalfajores.jpg);
     width: 100%;
     height: auto;
+    /* titulo:riquisimo */
+    /* subtitulo */
   }
   .titulo .titulo-h1 {
     font-size: 50px;
@@ -567,6 +601,7 @@ footer .paginas a {
     color: brown;
     text-align: center;
   }
+  /* organizacion carrousel-texto */
   .nosotros {
     display: -ms-grid;
     display: grid;
@@ -637,19 +672,31 @@ del texto de cards */
     background-color: burlywood;
   }
   /* redes sociales */
-  .titulo-redes p {
-    font-size: 40px;
-    color: brown;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 40px;
+  .seguinos {
+    text-align: center;
+    /* titulo:seguinos en nuestras redes */
+    /* logo de instagram y facebook */
   }
-  /* logo de instagram y facebook */
-  .redes img {
-    width: 50px;
-    height: 50px;
-    margin: 20px;
+  .seguinos .titulo-redes p {
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 5px;
     display: block;
+    border: solid 8px pink;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .seguinos .redes {
+    display: inline-block;
+  }
+  .seguinos .redes .ins {
+    width: 70px;
+    height: 70px;
+  }
+  .seguinos .redes .fac {
+    width: 80px;
+    height: 80px;
   }
   /* pie de pagina */
   footer {
@@ -658,8 +705,10 @@ del texto de cards */
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background-color: darkgray;
+    background-color: lightsalmon;
     padding: 20px;
+    /* medios de pago */
+    /* link de las paginas */
   }
   footer .pago {
     display: -webkit-box;
@@ -668,6 +717,7 @@ del texto de cards */
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    /* imagenes de medio de pago */
   }
   footer .pago h3 {
     font-size: 20px;
@@ -675,7 +725,7 @@ del texto de cards */
   }
   footer .pago img {
     width: 80px;
-    height: auto;
+    height: 50px;
     margin: 5px;
   }
   footer .paginas a {
@@ -686,11 +736,13 @@ del texto de cards */
     font-size: 20px;
     padding: 10px;
   }
+  /* productos */
   /* titulo principal  */
   .Titulo-pro {
     color: black;
     text-align: center;
   }
+  /* organizacion de imagenes */
   .productos {
     display: -ms-grid;
     display: grid;
@@ -734,6 +786,7 @@ del texto de cards */
   /* borde de card */
   .card {
     border: solid black 3px;
+    /* tamaño de las img */
   }
   .card .desayuno {
     width: 330px;
@@ -898,6 +951,7 @@ del texto de cards */
     padding: 8px;
     background-color: aquamarine;
   }
+  /* tiografia de comentarios */
   .comen {
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -945,11 +999,18 @@ del texto de cards */
   .correo {
     display: block;
   }
+  .correo h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 80px;
+    font-weight: 30px;
+  }
   .correo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50px;
-    margin: 50px;
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 80px;
   }
   /* logo de whatsapp */
   .what {
@@ -962,6 +1023,7 @@ del texto de cards */
     width: 120px;
     height: auto;
   }
+  /* org como nos conociste */
   .conocer {
     display: inline-block;
   }

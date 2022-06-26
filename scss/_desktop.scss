@@ -10,22 +10,23 @@ font-family: 'Satisfy', cursive;}
 
 @media screen and (min-width:769px) {
     /* Menu de navegacion */
+    /* barra de navegacion */
     .container-fluid{
         background-color: white;
         
 }
     
     .navbar { color: black;
-    
+    /* logo */
         .img-logo{
             width: 100px;
             height: 100px;
         }}
-    
+    /* tamaño texto-menu */
         .nav-item{
             font-size: 20px;
         }
-
+   /* organizacion del menu */
         ul{ margin-left: 200px;
             li a{
                 background-color: white;
@@ -48,18 +49,19 @@ font-family: 'Satisfy', cursive;}
 
     
     
-
+/* titulos-pagina de inicio */
+/* fondo */
     .titulo{
         background-image: url(../imágenes/fondoalfajores.jpg);
         width: 100%;
         height: auto;
-
+/* titulo:riquisimo */
         .titulo-h1{
             font-size: 50px;
         color: brown;
         text-align: center;
         }
-    
+    /* subtitulo */
         .titulo-h2{
             font-size: 35px;
         color: brown;
@@ -67,7 +69,7 @@ font-family: 'Satisfy', cursive;}
         }
     }
 
-  
+  /* organizacion carrousel-texto */
 .nosotros{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -153,36 +155,48 @@ section .titulo-novedades {
     background-color:burlywood;}
 
 /* redes sociales */
+        .seguinos{
+            text-align: center;
+        /* titulo:seguinos en nuestras redes */
+        .titulo-redes p {
 
+            font-size: 30px;
+            color:black;
+            background-color:white;
+            padding: 10px 5px;
+            display: block;
+            border: solid 8px pink;
+            margin-top: 20px;
+            padding: 10px;
+            
+        }
+        
+        /* logo de instagram y facebook */
+        .redes  {
+            display:inline-block;
+            
+              .ins{
+                width: 70px;
+                height: 70px;
+              }
 
-.titulo-redes p {
-    font-size: 40px;
-    color:brown;
-    display: inline-block;
-    margin:20px;
-    margin-top: 40px;
+              .fac{
+                width: 80px;
+                height: 80px;
+              }
+        }
+        }
     
-}
-
-/* logo de instagram y facebook */
-.redes img {
-    width: 50px;
-    height: 50px;
-    margin: 20px;
-    display:block;
-    
-    
-}
 
 /* pie de pagina */
 
 footer{
     display: flex;
     justify-content:space-around;
-    background-color:darkgray;
+    background-color:lightsalmon;
     padding: 20px;
     
-
+/* medios de pago */
     .pago{ display: flex;
         align-items: center;
         
@@ -191,14 +205,16 @@ footer{
             font-size: 20px;
             color: black;
         }
-    
+    /* imagenes de medio de pago */
         img{
             width: 80px;
-            height: auto;
+            height:50px;
             margin: 5px;
         
         }
     }
+
+    /* link de las paginas */
     .paginas a{
         display: block;
         display: inline-block;
@@ -210,9 +226,10 @@ footer{
     
     }
 
-    
 
 }
+
+/* productos */
 
     /* titulo principal  */
 .Titulo-pro{
@@ -220,7 +237,7 @@ footer{
       text-align: center;
       
 }
-
+/* organizacion de imagenes */
 .productos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
@@ -266,7 +283,7 @@ footer{
 /* borde de card */
 .card {border: solid black 3px;
    
-
+/* tamaño de las img */
     .desayuno{
         width: 330px;
         height: 250px;
@@ -454,7 +471,7 @@ font-size: 45px;
 
     }
 
-    
+    /* tiografia de comentarios */
   .comen{
       font-size: 15px;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -512,14 +529,23 @@ font-size: 45px;
 
 .correo{
     display: block;
+
+    h3{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: black;
+        margin-left:80px;
+        font-weight: 30px;
+    }
     
     img{
-        width: 150px;
-    height: 150px;
-    border-radius: 50px;
-    margin: 50px;
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 80px;
 
-    }}
+    }
+}
 
 
 /* logo de whatsapp */
@@ -535,7 +561,7 @@ font-size: 45px;
     }
 }
 
-
+/* org como nos conociste */
 .conocer{
     display: inline-block;
 }
